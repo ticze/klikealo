@@ -1,0 +1,92 @@
+.contenido-Form{
+  background-image: url("https://fotos.subefotos.com/a6a2f83925f5e122b4a39287984b0397o.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .contenido-Form{
+    background-image: url("https://fotos.subefotos.com/2715c409c396f684ac3123138d5cbce4o.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+  }
+}
+
+.formulario{
+  margin-right: -15px !important;
+}
+
+@media (max-width: 1024px) {
+  .formulario{
+    margin-right: 48px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .formulario{
+    margin-top: 800px !important;
+  }
+}
+
+h4{
+  font-weight: 400;
+}
+
+form{
+  background-color: #0aafe8;
+  padding: 10px;
+}
+.form-control{
+  background-color: #007fbe;
+  background-clip: initial;
+  border: none ;
+  border-radius: 0;
+}
+input{
+  text-decoration-color: #d24471 !important;
+}
+.option{
+  background-color: #007fbe;
+  flex: 0 0 50.666667%;
+  max-width: 48.666667%;
+}
+
+.contImg{
+  height: 85px;
+}
+
+@media (max-width: 768px) {
+  .contImg{
+    height: 160px;
+  }
+}
+
+@media (max-width: 425px) {
+  .contImg{
+    height: 60px;
+  }
+}
+
+button{
+  width: 100%;
+  background-color: #d24471;
+  color: #ffffff;
+  border: none;
+  height: 35px;
+}
+
+.itemImg{
+  height: 56px;
+}
+.owl-carousel .owl-item img {
+  display: block;
+  width: auto;
+}
